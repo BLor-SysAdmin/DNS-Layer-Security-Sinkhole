@@ -30,7 +30,7 @@ This security infrastructure portfolio showcases the deployment of a centralized
        ▼
 [Ubuntu Linux LXC Container (10.0.1.53)]
                                  │
-        ┌────────────────────────┴────────────────────────┐  ▼                                                 ▼
+        ┌────────────────────────┴────────────────────────┐
 [Domain on Security Blocklist]             [Safe Verified Domain]
         │                                                 │
 (Packet Instantly Dropped)            (Forwarded to Upstream DNS)
