@@ -1,5 +1,8 @@
 # DNS-Layer Security Sinkhole & Core Threat Mitigation Pipeline
 
+## Homelab Network Topology
+![Homelab Master Network Topology](https://raw.githubusercontent.com/BLor-SysAdmin/HTC-Network-Administration-Labs/main/homelab-topology-blueprint.png)
+
 ## Executive Architecture Overview
 This security infrastructure portfolio showcases the deployment of a centralized, network-wide DNS-layer sinkhole engineered to intercept protocol-level vulnerabilities before malicious traffic can enter host OS spaces. In modern enterprise environments, client endpoints routinely leak data via silent tracking telemetry, adware insertion schemes, and known malicious command-and-control (C2) domains. This project resolves these issues by deploying a high-efficiency caching DNS proxy that matches outbound lookup queries against strict blocklist matrices, dropping threat vectors at the root protocol tier without introducing network latency.
 
